@@ -1,4 +1,4 @@
-const bubble = (base) => {
+((base) => {
 	for (i = 0; i < base.length; i++) {
 		for (x = 0; x < base.length; x++) {
 			
@@ -14,6 +14,4 @@ const bubble = (base) => {
 	base.reverse();
 
 	console.log(base);
-}
-
-bubble([8, 14, 5, 2, 9, 11, 7, 13, 4, 1, 3, 12, 15, 6, 0, 10]);
+})([8, 14, 5, 2, 9, 11, 7, 13, 4, 1, 3, 12, 15, 6, 0, 10]);
